@@ -86,7 +86,7 @@ public class Guesser{
     }
     // When low has met high, we don't enter the loop
     // and we have found the number
-    answer(low, i--);
+    answer(low, i);
   }
 
   private void answer(int guess, int numberOfGuesses){
