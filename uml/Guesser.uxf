@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>20</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>240</y>
+      <w>640</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>Guesser
+--
+-low:int
+-high: int
+--
++Guesser(low: int, high: int)
+--
++start() : void
+-rules() : void
+-getReply() : String
+-doGuesses() : void
+-answer(guess: int, numberOfGuesses: int)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
